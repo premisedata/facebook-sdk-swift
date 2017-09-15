@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.platform     = :ios
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'Sources/Login/**/*.swift'
   s.exclude_files = 'Sources/Login/LoginManager.DefaultAudience.swift'

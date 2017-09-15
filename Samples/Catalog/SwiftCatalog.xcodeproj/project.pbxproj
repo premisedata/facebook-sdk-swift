@@ -667,11 +667,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Facebook, Inc";
 				TargetAttributes = {
 					81EDA31D1D025F4600E742F4 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = A3CVK9FZVX;
 						LastSwiftMigration = 0800;
 						SystemCapabilities = {
 							com.apple.Keychain = {
@@ -1030,6 +1031,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 81BA3CBF1D35949E00017B14 /* SwiftCatalog.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = A3CVK9FZVX;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -1037,6 +1040,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 81BA3CBF1D35949E00017B14 /* SwiftCatalog.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = A3CVK9FZVX;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -1044,6 +1049,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 81BA3CBC1D35949E00017B14 /* Debug.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 			};
 			name = Debug;
 		};
@@ -1051,6 +1060,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 81BA3CBD1D35949E00017B14 /* Release.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 			};
 			name = Release;
 		};
